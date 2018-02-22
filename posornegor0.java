@@ -1,10 +1,10 @@
 import java.util.*;
  
-class PosNegZero
+class PosNegZ
 {
     public static void main(String []s)
     {
-        int num;
+        int n;
 
         Scanner sc=new Scanner(System.in);
          
@@ -12,11 +12,11 @@ class PosNegZero
         num=sc.nextInt();
          
       
-        if(num>0)
-            System.out.println(num + " is POSITIVE NUMBER.");
+        if(n>0)
+            System.out.println(num + " is POSITIVE");
             
-        else if(num<0)
-            System.out.println(num + " is NEGATIVE NUMBER.");
+        else if(n<0)
+            System.out.println(num + " is NEGATIVE");
             
         else
             System.out.println("IT's ZERO.");
